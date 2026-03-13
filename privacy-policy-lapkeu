@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kebijakan Privasi - Laporan Keuangan</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 25px;
+        }
+        p, li {
+            margin-bottom: 15px;
+        }
+        .last-updated {
+            font-style: italic;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
+        footer {
+            margin-top: 30px;
+            text-align: center;
+            font-size: 0.8em;
+            color: #bdc3c7;
+        }
+        ul {
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Kebijakan Privasi</h1>
+    <p class="last-updated">Terakhir Diperbarui: 13 Maret 2026</p>
+
+    <p>Selamat datang di aplikasi <strong>Laporan Keuangan</strong>. Kami sangat menghargai privasi Anda dan berkomitmen untuk melindungi data pribadi serta informasi keuangan Anda secara aman dan transparan.</p>
+
+    <h2>1. Informasi yang Kami Kumpulkan</h2>
+    <p>Dalam menjalankan fungsinya, kami dapat mengumpulkan beberapa jenis informasi:</p>
+    <ul>
+        <li><strong>Informasi Identitas:</strong> Nama dan alamat email saat pendaftaran akun.</li>
+        <li><strong>Data Transaksi:</strong> Catatan pemasukan, pengeluaran, anggaran, dan detail kategori yang Anda input secara manual.</li>
+        <li><strong>Informasi Teknis:</strong> Jenis perangkat, versi sistem operasi, dan log aktivitas anonim untuk perbaikan sistem.</li>
+    </ul>
+
+    <h2>2. Penggunaan Data</h2>
+    <p>Data Anda digunakan secara eksklusif untuk kepentingan operasional aplikasi:</p>
+    <ul>
+        <li>Menyajikan visualisasi laporan keuangan dan analisis anggaran.</li>
+        <li>Sinkronisasi data antar perangkat melalui layanan cloud terenkripsi.</li>
+        <li>Mengoptimalkan fitur aplikasi berdasarkan pola penggunaan secara agregat (anonim).</li>
+    </ul>
+
+    <h2>3. Keamanan Informasi</h2>
+    <p>Kami menerapkan standar keamanan tinggi untuk melindungi data Anda:</p>
+    <ul>
+        <li><strong>Enkripsi End-to-End:</strong> Transmisi data antara aplikasi dan server menggunakan protokol SSL/TLS.</li>
+        <li><strong>Penyimpanan Lokal:</strong> Opsi untuk menyimpan data hanya di memori perangkat tanpa mengirimkannya ke server.</li>
+        <li><strong>Kerahasiaan:</strong> Kami menjamin tidak akan menjual atau membagikan data keuangan spesifik Anda kepada pihak ketiga untuk kepentingan iklan.</li>
+    </ul>
+
+    <h2>4. Kontrol dan Hak Anda</h2>
+    <p>Anda memiliki kendali penuh atas data yang Anda simpan:</p>
+    <ul>
+        <li><strong>Edit & Hapus:</strong> Anda dapat mengubah atau menghapus data transaksi kapan saja.</li>
+        <li><strong>Penutupan Akun:</strong> Anda berhak menghapus akun secara permanen yang akan menghapus seluruh data terkait di server kami.</li>
+        <li><strong>Ekspor:</strong> Fitur untuk mengunduh data dalam format PDF atau Excel untuk keperluan pencatatan pribadi.</li>
+    </ul>
+
+    <h2>5. Layanan Pihak Ketiga</h2>
+    <p>Aplikasi ini dapat berinteraksi dengan layanan pihak ketiga (seperti Firebase untuk analitik atau AdMob untuk iklan). Pihak-pihak ini hanya mengakses data teknis non-pribadi sesuai dengan kebijakan privasi mereka masing-masing.</p>
+
+    <h2>6. Kontak Kami</h2>
+    <p>Jika ada pertanyaan lebih lanjut mengenai kebijakan ini, silakan hubungi tim kami melalui:</p>
+    <ul>
+        <li><strong>Email:</strong>nanda.sitepu@gmail.com</li>
+        
+    </ul>
+
+    <footer>
+        &copy; 2026 Laporan Keuangan App. Hak Cipta Dilindungi.
+    </footer>
+</div>
+
+</body>
+</html>
