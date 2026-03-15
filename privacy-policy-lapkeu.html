@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kebijakan Privasi - Laporan Keuangan</title>
+    <title>Kebijakan Privasi - MYData: Laporan Keuangan</title>
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,96 +12,72 @@
             max-width: 800px;
             margin: 0 auto;
             padding: 20px;
-            background-color: #f9f9f9;
+            background-color: #f4f7f6;
         }
         .container {
-            background-color: #ffffff;
+            background-color: #fff;
             padding: 40px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.1);
         }
-        h1 {
-            color: #2c3e50;
-            border-bottom: 2px solid #3498db;
-            padding-bottom: 10px;
-        }
-        h2 {
-            color: #2980b9;
-            margin-top: 25px;
-        }
-        p, li {
-            margin-bottom: 15px;
-        }
-        .last-updated {
-            font-style: italic;
-            color: #7f8c8d;
-            font-size: 0.9em;
-        }
-        footer {
-            margin-top: 30px;
-            text-align: center;
-            font-size: 0.8em;
-            color: #bdc3c7;
-        }
-        ul {
-            padding-left: 20px;
-        }
+        h1 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 25px; }
+        p, li { margin-bottom: 15px; }
+        .highlight { background-color: #e8f4fd; padding: 15px; border-left: 5px solid #3498db; font-style: italic; }
+        footer { text-align: center; margin-top: 30px; font-size: 0.9em; color: #7f8c8d; }
     </style>
 </head>
 <body>
 
 <div class="container">
     <h1>Kebijakan Privasi</h1>
-    <p class="last-updated">Terakhir Diperbarui: 13 Maret 2026</p>
+    <p><strong>Aplikasi:</strong> MYData: Laporan Keuangan</p>
+    <p><strong>Terakhir Diperbarui:</strong> 16 Maret 2026</p>
 
-    <p>Selamat datang di aplikasi <strong>Laporan Keuangan</strong>. Kami sangat menghargai privasi Anda dan berkomitmen untuk melindungi data pribadi serta informasi keuangan Anda secara aman dan transparan.</p>
+    <p>Selamat datang di <strong>MYData: Laporan Keuangan</strong>. Kami sangat menghargai privasi Anda dan berkomitmen untuk melindungi informasi keuangan Anda secara aman dan transparan.</p>
+
+    <div class="highlight">
+        Penting: Aplikasi ini dirancang dengan prinsip privasi utama. Kami tidak mengumpulkan atau menyimpan data transaksi keuangan Anda di server kami. Seluruh data transaksi adalah hak dan milik penuh pengguna.
+    </div>
 
     <h2>1. Informasi yang Kami Kumpulkan</h2>
-    <p>Dalam menjalankan fungsinya, kami dapat mengumpulkan beberapa jenis informasi:</p>
+    <p>Dalam menjalankan fungsinya, aplikasi dapat mengakses atau memproses jenis informasi berikut:</p>
     <ul>
-        <li><strong>Informasi Identitas:</strong> Nama dan alamat email saat pendaftaran akun.</li>
-        <li><strong>Data Transaksi:</strong> Catatan pemasukan, pengeluaran, anggaran, dan detail kategori yang Anda input secara manual.</li>
-        <li><strong>Informasi Teknis:</strong> Jenis perangkat, versi sistem operasi, dan log aktivitas anonim untuk perbaikan sistem.</li>
+        <li><strong>Data Transaksi (Lokal):</strong> Catatan pemasukan, pengeluaran, piutang, dan hutang yang Anda input. Data ini disimpan <strong>hanya di dalam memori perangkat Anda</strong>.</li>
+        <li><strong>Informasi Identitas:</strong> Alamat email digunakan untuk keperluan login Google dan sinkronisasi cadangan.</li>
+        <li><strong>Informasi Teknis:</strong> ID Perangkat (Device ID), ID Iklan (Advertising ID), dan log performa (Crash logs) untuk memastikan aplikasi berjalan stabil.</li>
     </ul>
 
-    <h2>2. Penggunaan Data</h2>
-    <p>Data Anda digunakan secara eksklusif untuk kepentingan operasional aplikasi:</p>
+    <h2>2. Penggunaan dan Penyimpanan Data</h2>
     <ul>
-        <li>Menyajikan visualisasi laporan keuangan dan analisis anggaran.</li>
-        <li>Sinkronisasi data antar perangkat melalui layanan cloud terenkripsi.</li>
-        <li>Mengoptimalkan fitur aplikasi berdasarkan pola penggunaan secara agregat (anonim).</li>
+        <li><strong>Penyimpanan Lokal:</strong> Seluruh data keuangan Anda bersifat privat dan tetap berada di perangkat Anda. Kami tidak memiliki akses untuk melihat atau membaca data transaksi tersebut.</li>
+        <li><strong>Fitur Cadangan (Backup):</strong> Jika Anda mengaktifkan fitur Backup, data akan dikirim ke akun <strong>Google Drive pribadi</strong> Anda menggunakan enkripsi HTTPS. Data tersebut disimpan di ruang penyimpanan cloud milik Anda sendiri, bukan di server kami.</li>
+        <li><strong>Layanan Iklan:</strong> Kami menggunakan Google AdMob untuk menampilkan iklan guna mendukung pengembangan aplikasi.</li>
     </ul>
 
     <h2>3. Keamanan Informasi</h2>
-    <p>Kami menerapkan standar keamanan tinggi untuk melindungi data Anda:</p>
+    <p>Kami menerapkan standar keamanan tinggi:</p>
     <ul>
-        <li><strong>Enkripsi End-to-End:</strong> Transmisi data antara aplikasi dan server menggunakan protokol SSL/TLS.</li>
-        <li><strong>Penyimpanan Lokal:</strong> Opsi untuk menyimpan data hanya di memori perangkat tanpa mengirimkannya ke server.</li>
-        <li><strong>Kerahasiaan:</strong> Kami menjamin tidak akan menjual atau membagikan data keuangan spesifik Anda kepada pihak ketiga untuk kepentingan iklan.</li>
+        <li><strong>Enkripsi saat Transit:</strong> Semua transmisi data (seperti proses backup atau pelaporan error) dilakukan melalui koneksi terenkripsi <strong>HTTPS/TLS</strong> yang aman.</li>
+        <li><strong>Kontrol Pengguna:</strong> Anda memiliki kendali penuh untuk menghapus seluruh data di aplikasi maupun file cadangan di Google Drive kapan saja.</li>
     </ul>
 
-    <h2>4. Kontrol dan Hak Anda</h2>
-    <p>Anda memiliki kendali penuh atas data yang Anda simpan:</p>
+    <h2>4. Layanan Pihak Ketiga</h2>
+    <p>Aplikasi ini berinteraksi dengan layanan resmi dari Google untuk menunjang fungsionalitas:</p>
     <ul>
-        <li><strong>Edit & Hapus:</strong> Anda dapat mengubah atau menghapus data transaksi kapan saja.</li>
-        <li><strong>Penutupan Akun:</strong> Anda berhak menghapus akun secara permanen yang akan menghapus seluruh data terkait di server kami.</li>
-        <li><strong>Ekspor:</strong> Fitur untuk mengunduh data dalam format PDF atau Excel untuk keperluan pencatatan pribadi.</li>
+        <li><strong>Google Play Services & Drive API:</strong> Untuk manajemen akun dan backup.</li>
+        <li><strong>Google AdMob:</strong> Untuk penayangan iklan yang relevan.</li>
+        <li><strong>Firebase Crashlytics:</strong> Untuk analisis kerusakan aplikasi secara anonim.</li>
     </ul>
 
-    <h2>5. Layanan Pihak Ketiga</h2>
-    <p>Aplikasi ini dapat berinteraksi dengan layanan pihak ketiga (seperti Firebase untuk analitik atau AdMob untuk iklan). Pihak-pihak ini hanya mengakses data teknis non-pribadi sesuai dengan kebijakan privasi mereka masing-masing.</p>
-
-    <h2>6. Kontak Kami</h2>
-    <p>Jika ada pertanyaan lebih lanjut mengenai kebijakan ini, silakan hubungi tim kami melalui:</p>
-    <ul>
-        <li><strong>Email:</strong>nanda.sitepu@gmail.com</li>
-        
-    </ul>
-
-    <footer>
-        &copy; 2026 Laporan Keuangan App. Hak Cipta Dilindungi.
-    </footer>
+    <h2>5. Kontak Kami</h2>
+    <p>Jika Anda memiliki pertanyaan mengenai kebijakan privasi ini, silakan hubungi kami di:</p>
+    <p><strong>Email:</strong> nanda.sitepu@gmail.com</p>
 </div>
+
+<footer>
+    &copy; 2026 MYData Team. Hak Cipta Dilindungi.
+</footer>
 
 </body>
 </html>
